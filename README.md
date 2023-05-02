@@ -8,11 +8,7 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 ## II. Sentiment Analysis of Twitter Engagement
 1. **Background**
 
-    Polarization has been a growing topic in the last few years. Social media is a platform for discussion but seen as a driver for polarization. People on social media could often engage in lengthy debate with strongly opposed opinions.
-
-    Besides being a driver for debate, social media also functions to connect people. A deeper understanding about interaction between people on the social media can be insightful for mitigating polarization. 
-    
-    To narrow down, this project will focus on spatial sentiment analysis and answer the following questions:
+    Polarization has been a growing topic in the last few years. Social media is a platform for discussion but seen as a driver for polarization. People on social media could often engage in lengthy debate with strongly opposed opinions. Besides being a driver for debate, social media also functions to connect people. A deeper understanding about interaction between people on the social media can be insightful for mitigating polarization. To narrow down, this project will focus on spatial sentiment analysis and answer the following questions:
 
 - Is there a difference in the reaction patterns of users who are geographically close compared to those who are far away from the tweeter?
 
