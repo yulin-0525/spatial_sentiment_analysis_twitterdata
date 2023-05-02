@@ -8,13 +8,29 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 ## II. Sentiment Analysis of Twitter Engagement
 1. **Background**
 
+    Polarization has been a growing topic in the last few years. Social media is a platform for discussion but seen as a driver for polarization. People on social media could often engage in lengthy debate with strongly opposed opinions.
+
+    Besides being a driver for debate, social media also functions to connect people. A deeper understanding about interaction between people on the social media can be insightful for mitigating polarization. 
+    
+    To narrow down, this project will focus on spatial sentiment analysis and answer the following questions:
+
+- Is there a difference in the reaction patterns of users who are geographically close compared to those who are far away from the tweeter?
+
+- Is there a tendency towards positive or negative conversations depending on the closeness of people?
+
 
 2. **Methodology and Data Source**
 
+    The workflow below is for the whole project made by Tom. It includes data acquisition, preprocessing and sentiment, spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details.
+    
 ![method](https://user-images.githubusercontent.com/131768624/235584774-ba7f1538-c142-44b4-8740-a9343355e83c.jpg)
-
-
+    
+    Apart from this, a separated workflow was made to represent my learning process. 
+    
 3. **Implementation**
+
+    The details of implementation are included in the Jupter notebook which could be found in the repository.
+
 4. **Results**
 5. **Conclusions**
 ## III. Reflection 
