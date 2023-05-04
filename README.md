@@ -14,12 +14,16 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
 - Is there a tendency towards positive or negative conversations depending on the closeness of people?
 
-
 2. **Methodology and Data Source**
 
-    The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. Apart from this, a separated workflow was made to represent my learning process. 
+    The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. Apart from it, a separated workflow was made to represent my learning process. 
     
-    ![method](https://user-images.githubusercontent.com/131768624/235584774-ba7f1538-c142-44b4-8740-a9343355e83c.jpg)
+    <center>
+    <figure>
+    <img src="[https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png](https://user-images.githubusercontent.com/131768624/235584774-ba7f1538-c142-44b4-8740-a9343355e83c.jpg)" />
+    <img src="[https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png](https://user-images.githubusercontent.com/131768624/236314178-e926e56b-ef3b-4769-8299-9cacae36cd2d.png)" />
+    </figure>
+    </center>
     
 3. **Implementation**
 
