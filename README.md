@@ -16,12 +16,9 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
 2. **Methodology and Data Source**
 
-    The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. Apart from it, a separated workflow was made to represent my learning process. 
+    The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. 
     
     <img width="643" alt="method" src="https://user-images.githubusercontent.com/131768624/236615604-ff423380-2375-4b3b-b09c-c8bdfdeeacce.png">
-    
-    ![workflow](https://user-images.githubusercontent.com/131768624/236615518-6f129872-a1f4-4a3f-bcab-4450e2541825.png)
-
 
     To gain the data from Twitter, we used Twitter API and Twarc2. Twitter’s API is mostly an open API, which means everybody could access to that once users has successfully applied for developer accounts by declaring the purpose of the account. But in this February, Twitter announced that it would no longer provide free access, instead user needs to pay 100$ per month for basic access level. Though the policy was then rolled back to remain free access option, the offer was limited from 2 million to 1.5 thousand for only certain users. Consequently, our applications for developer accounts were all turned down. Fortunately, we still have one account that I had applied last September with 2-million tweet available for retrieving. To pull out tweets, twarc2 was used. Figure below (made by Sam) shows how to make commands to call the harvesting functions.
     
@@ -34,10 +31,23 @@ As a future urban designer or environmental issue consultor, I expect myself to 
     
 3. **Implementation**
 
-    The details of implementation are included in the Jupter notebook which could be found in the repository.
+    Apart from the workflow in the previous part, a separated workflow was made to represent my learning process. And details of implementation are included in the Jupter notebook (Data visualiztion.ipynb) which could be found in the repository. 
+    
+    ![workflow](https://user-images.githubusercontent.com/131768624/236615518-6f129872-a1f4-4a3f-bcab-4450e2541825.png)
+    
+    Before I start working on my learning goal of data visualization, case study was implemented. Two cases from the US were studied, one was about [spatial analysis of geottaged tweets in the US](https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=3352&context=cmc_theses), another one was more focused on the [operational aspect of visualizing flight routes in the US by python](https://tuangauss.github.io/projects/networkx_basemap/networkx_basemap.html). The Jupyter notebook file contains all the programming work to carry out data preparation and then visualization. Packages like pandas, networkx, matplotlib and baseamap were imported as tools. 
 
 4. **Results**
-5. **Conclusions**
+
+    Three network maps representing positive, neutral and negative sentiment of interactions were made as outcomes of visulization. 
+ 
+![map__po](https://user-images.githubusercontent.com/131768624/236620972-619e400f-b083-42c9-8b38-75df31d4238f.png)
+
+![map__neg](https://user-images.githubusercontent.com/131768624/236620966-f3db610b-cfa5-425e-928e-bc37fadfbcb6.png)
+
+![map__neu](https://user-images.githubusercontent.com/131768624/236620969-8f8dc62d-5d4c-4386-91d4-7f5e468f31e0.png)
+
+6. **Conclusions**
 ## III. Reflection 
 1. **Ethics**
 2. **Boundary crossing competence** 
