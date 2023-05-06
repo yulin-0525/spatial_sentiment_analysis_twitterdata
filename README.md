@@ -18,12 +18,16 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
     The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. Apart from it, a separated workflow was made to represent my learning process. 
     
-    <center>
-    <figure>
-    <img src="[https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png](https://user-images.githubusercontent.com/131768624/235584774-ba7f1538-c142-44b4-8740-a9343355e83c.jpg)" />
-    <img src="[https://img2018.cnblogs.com/blog/1735896/202001/1735896-20200116162140471-237299356.png](https://user-images.githubusercontent.com/131768624/236314178-e926e56b-ef3b-4769-8299-9cacae36cd2d.png)" />
-    </figure>
-    </center>
+    [workflow](https://user-images.githubusercontent.com/131768624/236615377-59a1f0b0-1908-439f-a995-0a76d4fb7dfe.png)
+
+    To gain the data from Twitter, we used Twitter API and Twarc2. Twitter’s API is mostly an open API, which means everybody could access to that once users has successfully applied for developer accounts by declaring the purpose of the account. But in this February, Twitter announced that it would no longer provide free access, instead user needs to pay 100$ per month for basic access level. Though the policy was then rolled back to remain free access option, the offer was limited from 2 million to 1.5 thousand for only certain users. Consequently, our applications for developer accounts were all turned down. Fortunately, we still have one account that I had applied last September with 2-million tweet available for retrieving. To pull out tweets, twarc2 was used. Figure below (made by Sam) shows how to make commands to call the harvesting functions.
+    
+    ![image](https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png)
+ 
+    Since twar2 was not configured to filter tweets by location, the choice was made to search tweets in Dutch language. Dutch word ‘ik’ (I) was used as the keyword for searching to maximize the number of tweets. In addition, this word could also give tweets from users that were expressing their sentiments. This process was repeated three times, all roughly a week apart from each other to avoid harvesting duplicate tweets. In total, we harvested around 1.8 million tweets, among which over 10 thousand were geotagged. Meanwhile, some concerns and drawbacks were also raised by the method:
+- **privacy**: geo information and personal information of users like name, gender and age are also collected. To deidentify the datasets is necessary for minimizing potential infringement on privacy, thus we decided to remove any personally identifiable data and utilize bounding box to generalize the exact location.
+- **consent**: despite having agreed to the terms & conditions of Twitter, users might be not aware of the range of information that can be extracted from their tweets. In addition, they might not know what other people can do with these tweets and are thus unlikely to have explicitly agreed upon providing their data to researchers like us. 
+- **bias**: such method has neglected internationals speaking other languages, which is a large group of people living in the country. But it also filtered out most of the tourists that were not included in our research. 
     
 3. **Implementation**
 
