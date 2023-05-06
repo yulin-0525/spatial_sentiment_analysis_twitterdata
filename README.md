@@ -43,16 +43,10 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
     <img width="643" alt="map__po" align="center" src="(https://user-images.githubusercontent.com/131768624/236620972-619e400f-b083-42c9-8b38-75df31d4238f.png"
 
-    <img width="643" alt="map__ne" align="center" src="https://user-images.githubusercontent.com/131768624/236620969-8f8dc62d-5d4c-4386-91d4-7f5e468f31e0.png"
+    <img width="643" alt="map__neu" align="center" src="https://user-images.githubusercontent.com/131768624/236620969-8f8dc62d-5d4c-4386-91d4-7f5e468f31e0.png"
     
     <img width="643" alt="map__neg" align="center" src="https://user-images.githubusercontent.com/131768624/236620966-f3db610b-cfa5-425e-928e-bc37fadfbcb6.png"
     
-![map__po](https://user-images.githubusercontent.com/131768624/236620972-619e400f-b083-42c9-8b38-75df31d4238f.png)
-
-![map__neg](https://user-images.githubusercontent.com/131768624/236620966-f3db610b-cfa5-425e-928e-bc37fadfbcb6.png)
-
-![map__neu](https://user-images.githubusercontent.com/131768624/236620969-8f8dc62d-5d4c-4386-91d4-7f5e468f31e0.png)
-
 6. **Conclusions**
 ## III. Reflection 
 1. **Ethics**
