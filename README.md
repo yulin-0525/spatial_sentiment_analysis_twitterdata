@@ -39,24 +39,29 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
 4. **Results**
 
-    Three network maps representing positive, neutral and negative sentiment of interactions were made as outcomes of visulization. 
+    Three network maps representing positive, neutral and negative sentiment of interactions were made as outcome of visulization. 
 
     ![map__po](https://user-images.githubusercontent.com/131768624/236626685-cf69ebd9-e697-47fb-8ffd-217fdf122e02.png)
 
     ![map__neu](https://user-images.githubusercontent.com/131768624/236626678-e53b0487-57b4-4a8c-8c22-95db1582d297.png)
 
     ![map__neg](https://user-images.githubusercontent.com/131768624/236626667-3c18ae64-f5e4-4fac-92d1-e22947b96a09.png)
+    
+    Red points represent users' locations. With lines between the points, users engaged in the same conversations are connected. Green lines means positive interactions, yellow is the color of neutral, and red ones are negative. Thickness of lines represents the communicating frequecy or times of responding between two locations. In general, density of lines in the maps is in the order of neutral, positive and negative. But in general, thicker lines occurs more in positive map and negative map than the neutral one, though there is a communication between the Netherlands and Belgium seems to be very intense. Thick lines of negative interaction are more likely to cross the country in a vertical direction from north to south while positive ones' are relatively gentle. Lastly, lines in three maps all have the patterns to intersect more in the middle of the country. 
 
 6. **Conclusions**
 
-    There is no clear relationship of sentiments of interactions with distance between people. But we could see there were less interactions between people in the northern provinces. Instead, people geotagged in the north tend to reply to tweets from the central part of the Netherlands, or the Randstad area. There could be various reasons for this observation. First, there might be less users in the North as there live less people in that area. Second, there are probably more users in the Randstad area because there live more people in this region. However, this conclusion could also be false as user interactions that take place within the same bounding box are not visualised.
+    There is no clear relationship of sentiments of interactions with distance between people. But we could see there were less interactions between people in the northern provinces. Instead, people geotagged in the north tend to reply to tweets from the central part of the Netherlands, or the Randstad area. There could be various reasons for this observation. For example, it could be the population difference. There might be less users in the North as there live less people in that area and probably more users in the Randstad area because there live more people in this region. However, this conclusion could also be false as user interactions that take place within the same bounding box are not visualised.
     
-    Also, social media is often believed to be mostly negative (Whatman, 2022), the tweets tend to be more positive than negative as the distribution of the tweets is more skewed towards positive than negative sentiment. 
+    Also, social media is often believed to be mostly negative (Whatman, 2022), our collected tweets tend to be more positive than negative as the distribution of the tweets is more skewed towards positive than negative sentiment. And we can also conclude that tweets or conversations with sentiment (either positive or negative) have more chance to arose a highly interactive communication.
 
-    It can also be derived that people are more likely to interact with people closer by. This is probably because people mostly interact with people they follow. People tend to follow people they know in real life, and they probably follow people who are in close proximity to them as they have some connection in real life.
-
-    The data shows that there is no clear correlation between distance and sentiment. The correlation coefficient is 0.01, which indicates that sentiment is not affected by distance.
+    From our data analysis done by Tom, it can also be derived that people are more likely to interact with people closer by. This is probably because people mostly interact with people they follow. People tend to follow people they know in real life, and they probably follow people who are in close proximity to them as they have some connection in real life. But the correlation coefficient of 0.01 indicates that sentiment of interaction is not affected by distance at all.
+    
+    ![image](https://user-images.githubusercontent.com/131768624/236629855-803654e3-b28c-4a55-be5b-a0abdc5f8672.png)
 
 ## III. Reflection 
 1. **Ethics**
+
+
+
 2. **Boundary crossing competence** 
