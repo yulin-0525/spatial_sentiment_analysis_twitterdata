@@ -18,14 +18,11 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
     The first workflow below was made by Tom for the whole project. It includes data acquisition and preprocessing, as well as sentiment and spatial analysis. Visit our [story map](https://storymaps.arcgis.com/stories/ffc11d7f630d4eed801a5e8b12742766) to see more operational details. 
     
-    <img width="643" alt="method" src="https://user-images.githubusercontent.com/131768624/236615604-ff423380-2375-4b3b-b09c-c8bdfdeeacce.png">
+    <img width="643" alt="method" align="center" src="https://user-images.githubusercontent.com/131768624/236615604-ff423380-2375-4b3b-b09c-c8bdfdeeacce.png">
 
     To gain the data from Twitter, we used Twitter API and Twarc2. Twitter’s API is mostly an open API, which means everybody could access to that once users has successfully applied for developer accounts by declaring the purpose of the account. But in this February, Twitter announced that it would no longer provide free access, instead user needs to pay 100$ per month for basic access level. Though the policy was then rolled back to remain free access option, the offer was limited from 2 million to 1.5 thousand for only certain users. Consequently, our applications for developer accounts were all turned down. Fortunately, we still have one account that I had applied last September with 2-million tweet available for retrieving. To pull out tweets, twarc2 was used. Figure below (made by Sam) shows how to make commands to call the harvesting functions.
-    
-    
-    <img width="643" alt="image" src="https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png">
-
-    ![image](https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png)
+   
+    <img width="643" alt="image" align="center" src="https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png">
  
     Since twar2 was not configured to filter tweets by location, the choice was made to search tweets in Dutch language. Dutch word ‘ik’ (I) was used as the keyword for searching to maximize the number of tweets. In addition, this word could also give tweets from users that were expressing their sentiments. This process was repeated three times, all roughly a week apart from each other to avoid harvesting duplicate tweets. In total, we harvested around 1.8 million tweets, among which over 10 thousand were geotagged. Meanwhile, some concerns and drawbacks were also raised by the method:
 - **privacy**: geo information and personal information of users like name, gender and age are also collected. To deidentify the datasets is necessary for minimizing potential infringement on privacy, thus we decided to remove any personally identifiable data and utilize bounding box to generalize the exact location.
@@ -36,14 +33,20 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
     Apart from the workflow in the previous part, a separated workflow was made to represent my learning process. And details of implementation are included in the Jupter notebook (Data visualiztion.ipynb) which could be found in the repository. 
     
-    ![workflow](https://user-images.githubusercontent.com/131768624/236615518-6f129872-a1f4-4a3f-bcab-4450e2541825.png)
+    <img width="643" alt="workflow" align="center" src="https://user-images.githubusercontent.com/131768624/236615518-6f129872-a1f4-4a3f-bcab-4450e2541825.png"
     
     Before I start working on my learning goal of data visualization, case study was implemented. Two cases from the US were studied, one was about [spatial analysis of geottaged tweets in the US](https://scholarship.claremont.edu/cgi/viewcontent.cgi?article=3352&context=cmc_theses), another one was more focused on the [operational aspect of visualizing flight routes in the US by python](https://tuangauss.github.io/projects/networkx_basemap/networkx_basemap.html). The Jupyter notebook file contains all the programming work to carry out data preparation and then visualization. Packages like pandas, networkx, matplotlib and baseamap were imported as tools. 
 
 4. **Results**
 
     Three network maps representing positive, neutral and negative sentiment of interactions were made as outcomes of visulization. 
- 
+
+    <img width="643" alt="map__po" align="center" src="(https://user-images.githubusercontent.com/131768624/236620972-619e400f-b083-42c9-8b38-75df31d4238f.png"
+
+    <img width="643" alt="map__ne" align="center" src="https://user-images.githubusercontent.com/131768624/236620969-8f8dc62d-5d4c-4386-91d4-7f5e468f31e0.png"
+    
+    <img width="643" alt="map__neg" align="center" src="https://user-images.githubusercontent.com/131768624/236620966-f3db610b-cfa5-425e-928e-bc37fadfbcb6.png"
+    
 ![map__po](https://user-images.githubusercontent.com/131768624/236620972-619e400f-b083-42c9-8b38-75df31d4238f.png)
 
 ![map__neg](https://user-images.githubusercontent.com/131768624/236620966-f3db610b-cfa5-425e-928e-bc37fadfbcb6.png)
