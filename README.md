@@ -22,6 +22,9 @@ As a future urban designer or environmental issue consultor, I expect myself to 
 
     To gain the data from Twitter, we used Twitter API and Twarc2. Twitter’s API is mostly an open API, which means everybody could access to that once users has successfully applied for developer accounts by declaring the purpose of the account. But in this February, Twitter announced that it would no longer provide free access, instead user needs to pay 100$ per month for basic access level. Though the policy was then rolled back to remain free access option, the offer was limited from 2 million to 1.5 thousand for only certain users. Consequently, our applications for developer accounts were all turned down. Fortunately, we still have one account that I had applied last September with 2-million tweet available for retrieving. To pull out tweets, twarc2 was used. Figure below (made by Sam) shows how to make commands to call the harvesting functions.
     
+    
+    <img width="643" alt="image" src="https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png">
+
     ![image](https://user-images.githubusercontent.com/131768624/236615337-a6bae067-e0c5-4d77-8164-b73c36e6a5f5.png)
  
     Since twar2 was not configured to filter tweets by location, the choice was made to search tweets in Dutch language. Dutch word ‘ik’ (I) was used as the keyword for searching to maximize the number of tweets. In addition, this word could also give tweets from users that were expressing their sentiments. This process was repeated three times, all roughly a week apart from each other to avoid harvesting duplicate tweets. In total, we harvested around 1.8 million tweets, among which over 10 thousand were geotagged. Meanwhile, some concerns and drawbacks were also raised by the method:
